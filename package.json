@@ -1,8 +1,7 @@
 {
   "name": "todo1",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "main": "src/app.js",
   "dependencies": {
     "express": "^4.17.1",
     "fs": "0.0.1-security"
@@ -20,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/subhajit5286/todo1/issues"
   },
-  "homepage": "https://github.com/subhajit5286/todo1#readme"
+  "homepage": "https://github.com/subhajit5286/todo1#readme",
+  "description": ""
 }
