@@ -1,6 +1,7 @@
 const express = require('express')
 const fs = require('fs')
 const app = express()
+var PORT = process.env.PORT || 3000;
 app.get('/',function(req,resp){
    // resp.writeHead(200,{'content-type':'text/html'});   
 fs.readFile("src/html/index.html",function(err,data){
@@ -37,6 +38,6 @@ app.get('/api/todos',function(req,res){
         
             });
 
-app.listen(3000,function(){
+app.listen(PORT,function(){
     console.log("Server Started")
 })
